@@ -32,13 +32,21 @@ curl -X POST http://127.0.0.1:5000/api/movies -H "Content-Type: application/json
 
 
 API Endpoints:
+
 Method	Endpoint	Description
+
 GET	/api/welcome	Returns a welcome message
+
 GET	/api/movies	Returns all movies in JSON
+
 GET	/api/movies/<id>	Returns details of a specific movie
+
 POST	/api/movies	Adds a new movie via API
+
 GET	/movies	Displays movies in an HTML page
+
 POST	/submit-movie	Adds a movie via form submission
+
 
 
 Method 2: Using jinja templates 
